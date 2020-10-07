@@ -1,0 +1,331 @@
+
+body {
+  margin: 0;
+  font-weight: bold;
+}
+/*div section*/
+.menu ul{
+	 	list-style: none;
+	 	padding-left: 0px;
+	 	margin: 0px;
+       }
+.menu ul li{
+       	display: inline-block;
+       	margin-right: 20px;
+
+            }
+.menu{
+       float: right;
+       right: 0;
+       margin: 20px;
+     }
+.logo{
+       	margin: 20px;
+       }	       
+.logo,.menu
+       {
+        display:inline-block;
+       }
+
+.navigation{
+  
+  background-color: white;
+  top: 0;
+  width: 100%;
+  border-bottom: 5px solid #555;
+
+}
+.logo a{
+       	text-decoration: none;
+       	color: black;
+        display: block;
+        margin-right: 20px;
+        
+
+       }
+.logo a:hover{
+       	background-color: lightblue;
+            color: white;
+            transition: all 0.5s ease;
+             
+       }
+.menu ul li a{
+            text-decoration: none;
+            background color: blue;
+            color: black;
+             margin-right: 20px;
+             
+
+       }
+.menu ul li a:hover{
+            background-color: lightblue;
+            color: white;
+            transition:all 0.5s ease ;
+       }
+       /*header section*/
+       header
+       {
+             
+        background-image: url(../img/blue.png);
+        width: 100%;
+        height:40%;
+        padding-top: 100px;
+        margin: 0;
+        text-align: center;
+         border-bottom: 5px solid #555;
+      
+      }
+      img   {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 6px solid white;
+            
+
+            }
+
+/*about me*/
+.aboutme
+{
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+.aboutme:after
+{
+      content: '';
+      display: block;
+      clear: both;
+
+}
+.aboutme .about-left, .aboutme .icon-rigth{
+      width: 50%;
+      float: left;
+}
+.aboutme .about-left p{
+      max-width: 100%;
+      padding-right: 10%;
+      padding-left: 30%;
+      text-align: justify;
+      font-size: 20px;
+}
+.aboutme .about-left h2
+{
+      padding-left: 30%;
+      padding-right: 5%
+}
+.aboutme .icon-right h2
+{
+      padding-left:50%;
+}
+.aboutme .icon-right ul li a{
+      text-decoration: none;
+      style:none;
+
+}
+/* about me icons*/
+.icon-right .icons,a
+{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  word-spacing: 15px;
+  text-decoration: none;
+}
+.icon-right .icons i {
+       text-decoration: none;
+       color: black;
+       padding-top: 10%;
+      font-size: 20px;
+}
+.icon-right .icons a{
+       text-decoration: none;
+      style:none;
+      color: black;
+      padding-top: 10%;
+      font-size: 20px;
+}
+/*..............skills middle section................*/
+
+.middle .box h2{
+  text-align: center;
+  padding-top: 1%;
+  text-decoration-line: underline;
+}
+.box{
+  background: lightblue;
+}
+
+.exp{
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+
+.box-area{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+}
+.single-box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin:20px;
+  padding: 20px;
+  transition:.3s;
+}
+
+.img-area{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width:80px;
+  height: 80px;
+  border:15px solid blue;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  -webkit-backgroung-size:cover;
+  background-size: cover;
+  background-position: center center;
+}
+.header-text{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.single-box:hover{
+  background: steelblue;
+}
+.intro
+       {
+             
+           background: #2e8aff;
+            height: 80px;
+            width: 100%;
+            background-size:cover;
+            background-repeat: no-repeat;
+            border-top: 5px solid #555;
+            border-bottom: 5px solid #555;
+            background-attachment: fixed;
+            text-align: center;
+   }
+   .middle
+{
+      width: 100%;
+}
+/* project section*/
+.myproject {
+  background-color: #e2e2e2;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  word-spacing: 5px;
+  
+}
+.myproject h2{
+  text-decoration-line: underline;
+}
+.myproject:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.myproject .project1, .myproject .project2, .myproject .project3, .myproject .project4{
+  width: 25%;
+  display: inline-block;
+  float: left;
+  background-color: 
+}
+
+/*experience middle section*/
+
+.wrap
+{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:20px;
+  padding: 20px;
+
+
+}
+
+.flip-box 
+{
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  padding: 5px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 300ms;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #555;
+  
+
+
+}
+
+.flip-box-front {
+  background-color: lightblue;
+  color: black;
+   border-spacing: 15px;
+}
+
+.flip-box-back {
+padding: 15px;
+  color: #ffffff;
+  box-sizing:border-box;
+  transform: rotateY(180deg);
+}
+.flip-box-back .ul .li{
+  margin: 0;
+ 
+}
+
+
+
+/*footer*/
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightblue;
+   color: black;
+   text-align: center;
+    border-top: 5px solid #555;
+    word-spacing: 20px;
+}
+
